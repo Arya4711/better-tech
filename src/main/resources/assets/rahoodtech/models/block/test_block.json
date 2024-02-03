@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "texture": {
+    "all": "rahoodtech:block/test_block"
+  }
+}
