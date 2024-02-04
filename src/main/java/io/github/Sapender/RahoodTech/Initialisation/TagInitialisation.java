@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.Block;
 public class TagInitialisation {
     public static final TagKey<Block> NEEDS_TEST_TOOL = tag("needs_test_tool");
 
-    private static TagKey<Block> tag(String name) { return BlockTags.create(new ResourceLocation(RahoodTech.MOD_ID,name));
+    private static TagKey<Block> tag(String name) {
+        return BlockTags.create(new ResourceLocation(RahoodTech.MOD_ID,name));
     }
 }

@@ -5,6 +5,12 @@ import net.minecraftforge.common.ForgeTier;
 
 public class TierInitialisation {
     public static final ForgeTier TEST = new ForgeTier(
-            5,2000,2.0f,3.0f,40,TagInitialisation.NEEDS_TEST_TOOL,() -> Ingredient.of(ItemInitialisation.TEST_ITEM::get)
+            5,
+            2000,
+            2.0f,
+            3.0f,
+            40,
+            TagInitialisation.NEEDS_TEST_TOOL,
+            () -> Ingredient.of(ItemInitialisation.TEST_ITEM::get)
     );
 }
