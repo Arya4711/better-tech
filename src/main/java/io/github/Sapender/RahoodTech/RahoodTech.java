@@ -1,6 +1,7 @@
 package io.github.Sapender.RahoodTech;
 
 import io.github.Sapender.RahoodTech.Initialisation.BlockInitialisation;
+import io.github.Sapender.RahoodTech.Initialisation.CreativeTabInitialisation;
 import io.github.Sapender.RahoodTech.Initialisation.ItemInitialisation;
 import io.github.Sapender.RahoodTech.sound.ModSounds;
 import net.minecraft.world.item.Item;
@@ -15,6 +16,7 @@ public class RahoodTech {
     public RahoodTech(){
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        CreativeTabInitialisation.TABS.register(bus);
         ItemInitialisation.ITEMS.register(bus);
         BlockInitialisation.BLOCKS.register(bus);
         ModSounds.SOUND_EVENTS.register(bus);

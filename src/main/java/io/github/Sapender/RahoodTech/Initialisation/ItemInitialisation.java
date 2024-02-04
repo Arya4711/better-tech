@@ -54,4 +54,13 @@ public class ItemInitialisation {
 
     public static final RegistryObject<BlockItem> DABABYIUM_ITEM = ITEMS.register("dababyium",
             () -> new BlockItem(BlockInitialisation.DABABYIUM.get(), new Item.Properties()));
+
+    public static final RegistryObject<BlockItem> FRELITE_ORE = ITEMS.register("frelite_ore",
+            () -> new BlockItem(BlockInitialisation.FRELITE_ORE.get(), new Item.Properties()));
+
+    public static final RegistryObject<BlockItem> PYRITE_ORE = ITEMS.register("pyrite_ore",
+            () -> new BlockItem(BlockInitialisation.PYRITE_ORE.get(), new Item.Properties()));
+
+    public static final RegistryObject<BlockItem> SALPHYNITE_ORE = ITEMS.register("salphynite_ore",
+            () -> new BlockItem(BlockInitialisation.SALPHYNITE_ORE.get(), new Item.Properties()));
 }
