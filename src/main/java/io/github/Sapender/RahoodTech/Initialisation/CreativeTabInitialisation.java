@@ -19,6 +19,9 @@ public class CreativeTabInitialisation {
                         output.accept(ItemInitialisation.TEST_ITEM.get());
                         output.accept(ItemInitialisation.ARYA_ITEM.get());
                         output.accept(ItemInitialisation.DABABYIUM_ITEM.get());
+                        output.accept(ItemInitialisation.FRELITE_ORE.get());
+                        output.accept(ItemInitialisation.PYRITE_ORE.get());
+                        output.accept(ItemInitialisation.SALPHYNITE_ORE.get());
                     })
                     .build()
     );
