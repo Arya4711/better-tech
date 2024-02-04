@@ -23,3 +23,12 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+*.lock
+*.bin
+*.probe
+*.gz
+*.log
+*.dat
+*.mca
+*.dat_old
+run/usercache.json
