@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "SSS",
+    "DDD"
+  ],
+  "key": {
+    "E": {
+      "item": "rahoodtech:pyrite"
+    },
+    "S": {
+      "item": "rahoodtech:frelite"
+    },
+    "D": {
+      "item": "rahoodtech:salphynite"
+    }
+  },
+  "result": {
+    "item": "rahoodtech:raw_tritite"
+  }
+}
