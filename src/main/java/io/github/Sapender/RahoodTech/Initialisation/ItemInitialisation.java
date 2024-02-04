@@ -21,13 +21,18 @@ public class ItemInitialisation {
                     .food(new FoodProperties.Builder()
                             .nutrition(5)
                             .saturationMod(0.2f)
-                            .build()))
-    ));
+                            .build()))));
+    public static final RegistryObject<Item> FRELITE = addToTab(ITEMS.register("frelite",
+            () -> new Item(new Item.Properties())));
 
     public static final RegistryObject<Item> PYRITE = addToTab(ITEMS.register("pyrite",
-            () -> new Item(new Item.Properties())
-    ));
+            () -> new Item(new Item.Properties())));
 
+    public static final RegistryObject<Item> SALPHYNITE = addToTab(ITEMS.register("salphynite",
+            () -> new Item(new Item.Properties())));
+
+    public static final RegistryObject<Item> TEST_SPAWNER = addToTab(ITEMS.register("raw_tritite",
+            () -> new Item(new Item.Properties())));
     //TOOLS UNDERNEATH//
     public static final RegistryObject<PickaxeItem> TEST_PICKAXE = addToTab(ITEMS.register("test_pickaxe",
             () -> new PickaxeItem(TierInitialisation.TEST,7,2.5f,new Item.Properties().durability(10000))
