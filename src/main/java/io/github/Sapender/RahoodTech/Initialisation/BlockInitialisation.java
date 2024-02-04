@@ -12,7 +12,7 @@ public class BlockInitialisation {
 
     public static final RegistryObject<Block> TEST_BLOCK = BLOCKS.register("test_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .lightLevel(value -> 5)
+                    .lightLevel(value -> 15)
                     .requiresCorrectToolForDrops()
             ));
 }
