@@ -108,5 +108,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-02-04 01:48:50 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 3463
 }
