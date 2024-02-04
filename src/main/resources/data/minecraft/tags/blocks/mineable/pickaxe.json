@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "rahoodtech:test_block"
+    "rahoodtech:test_block",
+    "rahoodtech:frelite_ore",
+    "rahoodtech:pyrite_ore",
+    "rahoodtech:salphynite_ore"
   ]
 }
