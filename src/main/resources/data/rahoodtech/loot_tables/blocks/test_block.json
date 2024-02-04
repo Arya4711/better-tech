@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "rahoodtech:test_block"
+          "name": "rahoodtech:test_item"
         }
       ]
     }
