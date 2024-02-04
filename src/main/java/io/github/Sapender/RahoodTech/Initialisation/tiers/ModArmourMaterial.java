@@ -56,7 +56,7 @@ public class ModArmourMaterial implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return RahoodTech.MODID + ":" + this.name;
+        return RahoodTech.MOD_ID + ":" + this.name;
     }
 
     @Override
