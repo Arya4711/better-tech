@@ -40,7 +40,7 @@ public class CreativeTabInitialisation {
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.getEntries().putAfter(Items.DEEPSLATE_DIAMOND_ORE.getDefaultInstance(), ItemInitialisation.FRELITE_ORE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.getEntries().putAfter(ItemInitialisation.FRELITE_ORE.get().getDefaultInstance(), ItemInitialisation.PYRITE_ORE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-            event.getEntries().putAfter(ItemInitialisation.PYRITE_ORE.get().getDefaultInstance(), ItemInitialisation.SALPHYNITE_ORE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.ANCIENT_DEBRIS.getDefaultInstance(), ItemInitialisation.SALPHYNITE_ORE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
     }
 }

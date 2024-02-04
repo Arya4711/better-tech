@@ -61,7 +61,7 @@ public class ModArmourMaterial implements ArmorMaterial {
 
     @Override
     public float getToughness() {
-        return toughness;
+        return this.toughness;
     }
 
     @Override

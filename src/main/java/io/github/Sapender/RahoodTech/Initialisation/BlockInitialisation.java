@@ -33,7 +33,7 @@ public class BlockInitialisation {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE), UniformInt.of(10,15)));
 
     public static final  RegistryObject<DropExperienceBlock> PYRITE_ORE = BLOCKS.register("pyrite_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK), UniformInt.of(20,30)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS), UniformInt.of(20,30)));
 
     public static final RegistryObject<DropExperienceBlock> SALPHYNITE_ORE = BLOCKS.register("salphynite_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE), UniformInt.of(30,45)));

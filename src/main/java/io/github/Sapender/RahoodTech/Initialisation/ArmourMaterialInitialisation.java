@@ -11,7 +11,7 @@ public class ArmourMaterialInitialisation {
             new int[] {12,16,14,11},
             20,
             SoundEvents.ARMOR_EQUIP_DIAMOND,
-            ()-> Ingredient.of(ItemInitialisation.TEST_ITEM::get),
+            () -> Ingredient.of(ItemInitialisation.TEST_ITEM::get),
             "test",
             0.25f,
             0.0f
