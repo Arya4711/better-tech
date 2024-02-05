@@ -24,11 +24,11 @@
                   }
                 }
               ],
-              "name": "rahoodtech:pyrite_ore"
+              "name": "rahoodtech:salphynite_ore"
             },
             {
               "type": "minecraft:item",
-              "name": "rahoodtech:pyrite"
+              "name": "rahoodtech:salphynite"
             }
           ]
         }
@@ -36,5 +36,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "rahoodtech:blocks/pyrite_ore"
+  "random_sequence": "rahoodtech:blocks/salphynite_ore"
 }

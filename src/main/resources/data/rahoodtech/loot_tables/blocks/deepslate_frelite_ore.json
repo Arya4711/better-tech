@@ -24,11 +24,21 @@
                   }
                 }
               ],
-              "name": "rahoodtech:pyrite_ore"
+              "name": "rahoodtech:deepslate_frelite_ore"
             },
             {
               "type": "minecraft:item",
-              "name": "rahoodtech:pyrite"
+              "functions": [
+                {
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops",
+                  "function": "minecraft:apply_bonus"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "rahoodtech:raw_frelite"
             }
           ]
         }
@@ -36,5 +46,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "rahoodtech:blocks/pyrite_ore"
+  "random_sequence": "rahoodtech:blocks/frelite_ore"
 }

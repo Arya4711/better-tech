@@ -22,7 +22,11 @@ public class ItemInitialisation {
                             .nutrition(5)
                             .saturationMod(0.2f)
                             .build()))));
-    public static final RegistryObject<Item> FRELITE = addToTab(ITEMS.register("frelite",
+
+    public static final RegistryObject<Item> RAW_FRELITE = addToTab(ITEMS.register("raw_frelite",
+            () -> new Item(new Item.Properties())));
+
+    public static final RegistryObject<Item> FRELITE_INGOT = addToTab(ITEMS.register("frelite_ingot",
             () -> new Item(new Item.Properties())));
 
     public static final RegistryObject<Item> PYRITE = addToTab(ITEMS.register("pyrite",
@@ -71,6 +75,9 @@ public class ItemInitialisation {
 
     public static final RegistryObject<BlockItem> FRELITE_ORE = addToTab(ITEMS.register("frelite_ore",
             () -> new BlockItem(BlockInitialisation.FRELITE_ORE.get(), new Item.Properties())));
+
+    public static final RegistryObject<BlockItem> DEEPSLATE_FRELITE_ORE = addToTab(ITEMS.register("deepslate_frelite_ore",
+            () -> new BlockItem(BlockInitialisation.DEEPSLATE_FRELITE_ORE.get(), new Item.Properties())));
 
     public static final RegistryObject<BlockItem> PYRITE_ORE = addToTab(ITEMS.register("pyrite_ore",
             () -> new BlockItem(BlockInitialisation.PYRITE_ORE.get(), new Item.Properties())));

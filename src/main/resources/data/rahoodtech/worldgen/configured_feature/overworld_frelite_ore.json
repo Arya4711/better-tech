@@ -12,6 +12,15 @@
         "state": {
           "Name": "rahoodtech:frelite_ore"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "minecraft:deepslate_ore_replaceables"
+        },
+        "state": {
+          "Name": "rahoodtech:deepslate_frelite_ore"
+        }
       }
     ]
   }
